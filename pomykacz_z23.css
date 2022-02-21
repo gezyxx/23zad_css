@@ -1,0 +1,39 @@
+p#pogrubienie_pomykacz {
+color: #865ACA;
+font-size: 33px;
+font-weight: bold;
+}
+
+p#pochylona_pomykacz {
+color: #EABE66;
+font-size: 38pt;
+font-style: italic;
+}
+
+p#index_gorny_pomykacz {
+color: #9A8C16;
+font-size: 1,3cm;
+vertical-align: super;
+}
+
+p#index_dolny_pomykacz {
+color: rgb(21%, 94%, 87%);
+font-size: 2.1cm;
+vertical-align: sub;
+}
+
+p#mono_pomykacz {
+color: #1AF066;
+font-size: 43px;
+font-family: monospace;
+}
+
+p#powiekszenie_pomykacz {
+color: #543C98;
+font-size: 2.5cm;
+}
+
+p#pomniejszenie_pomykacz {
+color: rgb(72%, 63%, 20%);
+font-size: 0.3cm;
+}
