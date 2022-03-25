@@ -1,39 +1,65 @@
-<!DOCTYPE html>
 <html>
- <head>
-<title>zadanie 32-Pomykacz</title>
-<meta charset="utf-8">
- 
-<style type="text/css">
- h1 { 
- width: 200px;
- height:2cm;
- padding : 50px;
- margin : 40px;
- border : 4px dotted black;
- background : rgb(255,255,130);
- }
- h2 { 
- width: 300px;
- height:1.5cm;
- padding : 30px;
- margin-left : 340px;
- border : 7px groove red;
- background : rgb(0,255,0);
- }
- h3 { 
- width: 400px;
- height:0.5cm;
- padding : 20px;
- margin-left : 710px;
- border : 10px outset blue;
- background : rgb(100,100,100);
- }
- </style>
- </head>
- <body>
- <h1>Oliwier</h1>
- <h2>Pomykacz</h2>
- <h3>1P g2 22.03.2022</h3>
- </body>
+<head>
+<title>Pomykacz</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body bgcolor="silver">
+<ol start="5">
+<h1><li>Co to model pudełkowy?</h1></li>
+Każdy element w dokumencie HTML, otacza się prostokątnym obszarem zwanym pudełkiem (ang. Box model). Pudełko składa się z kilku warstw.
+<h1><li>Zawartość modelu pudełkowego:</h1></li>
+<table border="1">
+<tr>
+<th>
+zawartość
+</th>
+<th>
+opis
+</th>
+</tr>
+<tr>
+<td>
+content
+</td>
+<td>
+zawartość elementu (np.: tekst, obrazek)
+</td>
+</tr>
+<tr>
+<td>
+padding
+</td>
+<td>
+otaczające marginesy wewnętrzne, odstęp między obramowaniem i 
+zawartością elementu
+</td>
+</tr>
+<tr>
+<td>
+border
+</td>
+<td>
+obramowania wokół zawartości elementu, ma styl i kolor.
+</td>
+</tr>
+<tr>
+<td>
+margin
+</td>
+<td>
+marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół 
+ramki, który nie ma koloru tła i jest przeźroczysty.
+</td>
+</tr>
+</table>
+<h1><li>Uwagi:</h1></li>
+1)Padding, border i margin mogą mieć zerową wartość.
+2)Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem 
+marginesów zewnętrznych, które zawsze są przezroczyste (transparent).
+<h1><li>Schemat modelu:</h1></li>
+<img src="model.png">
+<h1><li>Różnice między padding a margin:</h1></li>
+<img src="roz.png">
+</ol>
+</body>
 </html>
